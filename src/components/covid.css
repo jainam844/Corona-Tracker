@@ -1,0 +1,58 @@
+body{
+    /* background-color: silver; */
+    background: black;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+
+.card{
+     background-color:rgb(108, 92, 255);
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.3s;
+    font-size: 2em;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+}
+
+.card__total {
+    font-size: 200%;
+    font-weight: bold;
+
+}
